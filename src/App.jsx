@@ -19,19 +19,12 @@ function App() {
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
     >
-      <h1
-        style={{
-          fontSize: "2.5rem",
-          marginBottom: "1.5rem",
-          color: "#2b6cb0",
-          textAlign: "center",
-        }}
-      >
+      <h1 className="logo">
         Welcome to
-        <span style={{ color: "green" }}> Gr</span>
-        <span style={{ color: "red" }}>ai</span>
-        <span style={{ color: "green" }}>l</span>
-        <span style={{ color: "blue" }}>tec</span>
+        <span className="gr"> Gr</span>
+        <span className="ai">ai</span>
+        <span className="l">l</span>
+        <span className="tec">tec</span>
       </h1>
 
       <p

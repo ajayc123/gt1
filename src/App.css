@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,4 +26,32 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.logo {
+  margin-bottom: 0.5rem; /* was likely ~1em+ by default */
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+} */
+
+.gr {
+  color: #00d26a;
+}
+
+.ai {
+  color: #ff3b30;
+}
+
+.l {
+  color: #00b14f;
+}
+
+.tec {
+  color: #007bff;
 }
