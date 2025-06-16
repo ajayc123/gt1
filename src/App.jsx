@@ -27,8 +27,13 @@ function App() {
           textAlign: "center",
         }}
       >
-        Welcome to Grailtec!
+        Welcome to
+        <span style={{ color: "green" }}> Gr</span>
+        <span style={{ color: "red" }}>ai</span>
+        <span style={{ color: "green" }}>l</span>
+        <span style={{ color: "blue" }}>tec</span>
       </h1>
+
       <p
         style={{
           fontSize: "1.2rem",
